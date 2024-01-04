@@ -1,0 +1,6 @@
+#status-heading {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 60px;
+}
