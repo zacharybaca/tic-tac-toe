@@ -4,3 +4,72 @@
     font-weight: bolder;
     font-size: 60px;
 }
+
+#option-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 3px solid black;
+}
+
+#new-game-button {
+    margin-left: 38%;
+    font-size: 20px;
+}
+
+#give-up-button {
+    margin-right: 38%;
+    font-size: 20px;
+}
+
+:hover#new-game-button {
+    background-color: blue;
+    color: white;
+}
+
+:hover#give-up-button {
+    background-color: red;
+    color: white;
+}
+
+table {
+    width: 30%;
+    height: 280px;
+}
+
+#table-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url('./background-image.jpg');
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+}
+
+#square-0, #square-1, #square-2, #square-3, #square-4, #square-5, #square-6, #square-7, #square-8 {
+    border: 2px solid black;
+    height: 50px;
+}
+
+#square-1, #square-4, #square-7 {
+    border-right: none;
+    border-left: none;
+}
+
+#square-0, #square-1, #square-2 {
+    border-top: none;
+    border-bottom: none;
+}
+
+#square-0, #square-3, #square-6 {
+    border-left: none;
+}
+
+#square-8, #square-7, #square-6 {
+    border-bottom: none;
+    border-top: none;
+}
+
+#square-2, #square-5, #square-8 {
+    border-right: none;
+}
