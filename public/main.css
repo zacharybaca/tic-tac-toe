@@ -115,3 +115,12 @@ table {
 #square-2, #square-5, #square-8 {
     border-right: none;
 }
+
+#square-3 img, #square-4 img, #square-5 img {
+    width: 45%;
+    margin-left: 25%;
+}
+
+#square-3 img[id="player-o"], #square-4 img[id="player-o"], #square-5 img[id="player-o"] {
+    width: 37%;
+}
