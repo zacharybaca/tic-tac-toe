@@ -2,6 +2,16 @@ body {
     background-color: rgba(255, 215, 0, 0.2);
 }
 
+#player-x {
+    width: 30%;
+    margin-left: 30%;
+}
+
+#player-o {
+    width: 60%;
+    margin-left: 20%;
+}
+
 #status-heading {
     display: flex;
     justify-content: center;
